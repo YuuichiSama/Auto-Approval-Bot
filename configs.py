@@ -12,7 +12,7 @@ class Config:
     FSUB = getenv("FSUB", "VJ_Botz")
     CHID = int(getenv("CHID", "-1001623633000"))
     SUDO = list(map(int, getenv("SUDO", "6168162777").split()))
-    MONGO_URI = getenv("MONGO_URI", "mongodb+srv://sushankm16:4i1WAfPYKWyqPIDD@cluster0.sngp9pz.mongodb.net/?retryWrites=true&w=majority")
+    MONGO_URI = getenv("MONGO_URI", "mongodb+srv://naibansari987:Yuuichi@cluster0.wp2wkfb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     
 cfg = Config()
 
