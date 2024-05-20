@@ -8,7 +8,7 @@ from os import path, getenv
 class Config:
     API_ID = int(getenv("API_ID", "18196402"))
     API_HASH = getenv("API_HASH", "a184b91d39fc85265e232e7c323fac45")
-    BOT_TOKEN = getenv("BOT_TOKEN", "6900316570:AAHKoGkozoRvILgjHgtvs0tnxWjZd5yqP50")
+    BOT_TOKEN = getenv("BOT_TOKEN","0")
     FSUB = getenv("FSUB", "Adult_Unity")
     CHID = int(getenv("CHID", "-1001942609289"))
     SUDO = list(map(int, getenv("SUDO", "5911422304").split()))
